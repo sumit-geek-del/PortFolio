@@ -1,6 +1,13 @@
+.root{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body{
+    
     padding: 0;
     margin: 0;
+    
 }
 #header-list{
     font-size: 23px;
@@ -426,8 +433,8 @@ body{
 .card-img-top{
     
     width: 50%;
-    height: 100%;
-    margin-left: 6rem;
+    /*  */
+    margin-left: 5rem;
     
 }
 .card{
@@ -466,7 +473,7 @@ body{
     .card-img-top{
         width: 50%;
         height: 100%;
-        margin-left: 6rem;
+        margin-left: 4.4rem;
         
     }
 
