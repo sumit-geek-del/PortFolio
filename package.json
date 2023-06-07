@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://github.com/sumit-geek-del/PortFolio",
+  "homepage": "https://sumit-geek-del.github.io/PortFolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,8 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^3.0.0-beta.6",
+    "gh-pages": "^3.2.3",
+    "node-modules": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -39,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
