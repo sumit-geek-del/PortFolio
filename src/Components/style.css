@@ -10,9 +10,17 @@ body{
     
 }
 #header-list{
-    font-size: 23px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     padding: 15px 20px;
+}
+
+#header-list  li{
+    margin: 0 16px;
+}
+
+.nav-link{
+    color: #000;
 }
 #header-image{
     width: 20rem;
@@ -43,16 +51,19 @@ body{
     vertical-align: -0.1em;
 }
 #greeting-text{
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
+    color: #000 !important;
+    font-weight: 600;
+    line-height: 1.1;
 
 }
 #greeting-subtitle{
-    text-align: center;
     color: #868e96;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     line-height: 40px;
+    word-break: break-all;
+    margin-top: 1em;
     
 }
 .progressMainWrapper{
@@ -71,7 +82,7 @@ body{
 
 @media (max-width: 1380px){
     #greeting-text{
-        font-size: 38px;
+        font-size: 36px;
     }
 
 }
@@ -124,49 +135,99 @@ body{
     
 }
 
-#social-media{
-   margin-top: 4.5rem;
-   font-size: 5rem;
-   display: flex;
-}
 
-@media(max-width:768px){
-    #social-media{
-
-        text-align: center;
-        font-size: 3rem;
-    }
-}
 #github{
-    margin: 0 0.5rem 0 0.5rem;
-    color: #000;
+    background: #333;
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
 }
+
 #linkedin{
-    margin: 0 0.5rem 0 0.5rem;
-    color: blue;
+    background-color: #0e76a8;
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
 }
 #gmail{
-    margin: 0 0.5rem 0 0.5rem;
-    color: red;
+    background-color: #ea4335;
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
 }
 #instagram{
-    margin: 0 0.5rem 0 0.5rem;
-    color: pink;
+    background-color: #c13584;
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
 }
+
 #instagram:hover{
     
-   color: #C13584;
+   color: #fff !important;
+   background-color: #000;
 }
 #gmail:hover{
     
-    color: #152D35;
+    color: #fff;
+   background-color: #000;
 }
 #linkedin:hover{
-    color: #5C7AEA;
+    color: #fff;
+   background-color: #000;
 }
 #github:hover{
     
-    color: #212121;
+    color: #fff;
+   background-color: #000;
 }
 @media(max-width:768px){
     #instagram{
@@ -175,16 +236,12 @@ body{
 }
 
 .resume{
-    margin: 0 0 0 28rem;
+    margin: 2em 0 0 0;
 }
 .resume-btn{
     margin: 0 0 0 0.5rem;
 }
-@media(max-width: 768px){
-    #social-media{
-        display: block;
-    }
-}
+
 @media(max-width : 768px){
     .resume{
         margin: -1px ;
@@ -198,26 +255,23 @@ body{
 }
 
 .main{
-    margin: 4rem auto 0;
+    /* margin: 4rem auto 0; */
     display: flex;
 }
 .skills-image{
     
-    width: 90%;
     margin: 4rem 10rem 0 0;
 }
 .skills-content{
     margin: 4rem auto 0;
-    width: 50%;
 }
 #skills-head{
     
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
 .skills-icon{
-    margin-left: 20px ;
     margin-bottom: 20px;
 }
 .skills-content1{
@@ -281,7 +335,7 @@ body{
     
     
    
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 
@@ -299,6 +353,13 @@ body{
 }
 .edu-img{
     margin-left: 10rem;
+    width: 30%;
+}
+
+.edu-img > img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
 }
 @media(max-width:768px){
     .education{
@@ -362,9 +423,7 @@ body{
     height: auto;
     border-radius: 100%;
 }
-#instagram:hover{
-    color: #C13584;
-}
+
 
 @media(max-width:768px){
     .contact{

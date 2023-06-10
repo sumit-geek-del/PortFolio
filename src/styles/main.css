@@ -1,0 +1,19 @@
+#skills-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #868e96;
+}
+
+.contain i{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #868e96;
+}
+
+.contain{
+    font-size: 1.8em;
+}
+
+.contain i:hover{
+    color: #645beb;
+}

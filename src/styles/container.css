@@ -1,0 +1,35 @@
+.social-media-div{
+    font-size: 2em;
+}
+.resume{
+    display: flex;
+}
+.resume-btn{
+    background-color: #55198b;
+    border: 1px solid #55198b;
+    color: #fff;
+    font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.resume-btn:hover{
+    background-color: #fff;
+    color: #55198b;
+    transition: all .3s ease 0s;
+    transform: translateY(-3px);
+}

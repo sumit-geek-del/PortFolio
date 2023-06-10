@@ -1,0 +1,31 @@
+.proficiency_head{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    line-height: 4rem;
+}
+
+.skill{
+    line-height: 3.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.meter{
+    height: 20px;
+    position: relative;
+    background: #f3efef;
+    border-radius: 25px;
+}
+
+.meter > span{
+    display: block;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #aaa5ff;
+    position: relative;
+    overflow: hidden;
+}
