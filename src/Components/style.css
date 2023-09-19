@@ -1,12 +1,14 @@
 .root{
     width: 100%;
     overflow-x: hidden;
+    
 }
 
 body{
     
     padding: 0;
     margin: 0;
+    overflow-x: hidden !important;
     
 }
 #header-list{

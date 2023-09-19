@@ -18,22 +18,22 @@ import {
 function App() {
   return (
     <div>
-    <Router>
+      <Router>
 
-    <Header/>
-    <Switch>
-          <Route path="/"> 
+        <Header />
+        <Switch>
+          <Route path="/">
           </Route>
         </Switch>
-    </Router>
-    <Container/>
-    <Main/>
-    <Proficiency/>
-    <Education/>
-    <Experience/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
+      </Router>
+      <Container />
+      <Main />
+      <Proficiency />
+      <Education />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
