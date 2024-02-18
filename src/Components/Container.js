@@ -3,7 +3,6 @@ import waving_hand from './images/waving-hi.gif';
 import './style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import SVGComponent from './SvgComponent';
 import '../styles/container.css';
 import animationData from '../animations/141279-codingwithcoffile.json';
 import Lottie from 'react-lottie';
@@ -57,7 +56,7 @@ export default function Container() {
                 <h1 id="greeting-text">Hey, I'm Sumit Kumar<span ><img src={waving_hand} draggable="false" id="wave-emoji" alt="waving hand" /></span></h1>
                 
                 <p id="greeting-subtitle">
-                    A passionate Full Stack Software Developer<span>🚀</span> having over 1 year of experience in building web (Desktop-PWA) and Mobile applications with Javascript/Typescript/Angular/NodeJs/Flutter
+                    A passionate Full Stack Software Developer<span>🚀</span> having over 2 years of experience in building web (Desktop-PWA) applications with HTML/CSS/Javascript/Typescript/Angular/NodeJs/ExpressJs/MongoDB/MYSQL
 
                 </p> 
                 <div className='social-media-div'>

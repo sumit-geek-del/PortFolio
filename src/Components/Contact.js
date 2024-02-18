@@ -12,7 +12,7 @@ export default function Contact() {
         <div class="contact-details">
           <h1 id="contact-header">Reach Out to me</h1>
           <p id="contact-p">Have anything interested in mind? Want an experienced Front-End Developer by your side? Want to discuss a project or just want to say hi? My Inbox is open for all.</p>
-          <h2 id="contact-h2">FrontEnd Developer | ReactJS | ReactNative | Firebase</h2>
+          <h2 id="contact-h2">FrontEnd Developer | Angular | NextJs | NodeJs | ExpressJs | MongoDB</h2>
           <h5 id="contatc-prof">Open for Oppurtunities: Yes</h5>
           <div class="socialMedia">
 
